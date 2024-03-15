@@ -27,14 +27,8 @@ public class Odd_Even {
             else
                 System.out.println("Odd Numbers");
              
-            System.out.println("--------------");
-            
-            List<Integer> list = entry.getValue();
-            for (int i : list)
-                System.out.println(i);
+           System.out.println("--------------");
+           entry.getValue().forEach(System.out::println);
         }
-    
-
-	}
-
+    }
 }
